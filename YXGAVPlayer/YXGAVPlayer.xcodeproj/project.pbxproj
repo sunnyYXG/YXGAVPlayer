@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640C11241EF60DC600688323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11231EF60DC600688323 /* main.m */; };
+		640C11271EF60DC600688323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11261EF60DC600688323 /* AppDelegate.m */; };
+		640C112A1EF60DC600688323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11291EF60DC600688323 /* ViewController.m */; };
+		640C112D1EF60DC600688323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640C112B1EF60DC600688323 /* Main.storyboard */; };
+		640C112F1EF60DC600688323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640C112E1EF60DC600688323 /* Assets.xcassets */; };
+		640C11321EF60DC600688323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640C11301EF60DC600688323 /* LaunchScreen.storyboard */; };
+		640C113D1EF60DC700688323 /* YXGAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C113C1EF60DC700688323 /* YXGAVPlayerTests.m */; };
+		640C11481EF60DC700688323 /* YXGAVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11471EF60DC700688323 /* YXGAVPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		640C11391EF60DC600688323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 640C11171EF60DC600688323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640C111E1EF60DC600688323;
+			remoteInfo = YXGAVPlayer;
+		};
+		640C11441EF60DC700688323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 640C11171EF60DC600688323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640C111E1EF60DC600688323;
+			remoteInfo = YXGAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		640C111F1EF60DC600688323 /* YXGAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXGAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C11231EF60DC600688323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		640C11251EF60DC600688323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		640C11261EF60DC600688323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		640C11281EF60DC600688323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		640C11291EF60DC600688323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		640C112C1EF60DC600688323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		640C112E1EF60DC600688323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		640C11311EF60DC600688323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		640C11331EF60DC600688323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640C11381EF60DC600688323 /* YXGAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXGAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C113C1EF60DC700688323 /* YXGAVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGAVPlayerTests.m; sourceTree = "<group>"; };
+		640C113E1EF60DC700688323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640C11431EF60DC700688323 /* YXGAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXGAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C11471EF60DC700688323 /* YXGAVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGAVPlayerUITests.m; sourceTree = "<group>"; };
+		640C11491EF60DC700688323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		640C111C1EF60DC600688323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C11351EF60DC600688323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C11401EF60DC700688323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640C11161EF60DC600688323 = {
+			isa = PBXGroup;
+			children = (
+				640C11211EF60DC600688323 /* YXGAVPlayer */,
+				640C113B1EF60DC700688323 /* YXGAVPlayerTests */,
+				640C11461EF60DC700688323 /* YXGAVPlayerUITests */,
+				640C11201EF60DC600688323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		640C11201EF60DC600688323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				640C111F1EF60DC600688323 /* YXGAVPlayer.app */,
+				640C11381EF60DC600688323 /* YXGAVPlayerTests.xctest */,
+				640C11431EF60DC700688323 /* YXGAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		640C11211EF60DC600688323 /* YXGAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				640C11251EF60DC600688323 /* AppDelegate.h */,
+				640C11261EF60DC600688323 /* AppDelegate.m */,
+				640C11281EF60DC600688323 /* ViewController.h */,
+				640C11291EF60DC600688323 /* ViewController.m */,
+				640C112B1EF60DC600688323 /* Main.storyboard */,
+				640C112E1EF60DC600688323 /* Assets.xcassets */,
+				640C11301EF60DC600688323 /* LaunchScreen.storyboard */,
+				640C11331EF60DC600688323 /* Info.plist */,
+				640C11221EF60DC600688323 /* Supporting Files */,
+			);
+			path = YXGAVPlayer;
+			sourceTree = "<group>";
+		};
+		640C11221EF60DC600688323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				640C11231EF60DC600688323 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		640C113B1EF60DC700688323 /* YXGAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				640C113C1EF60DC700688323 /* YXGAVPlayerTests.m */,
+				640C113E1EF60DC700688323 /* Info.plist */,
+			);
+			path = YXGAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		640C11461EF60DC700688323 /* YXGAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				640C11471EF60DC700688323 /* YXGAVPlayerUITests.m */,
+				640C11491EF60DC700688323 /* Info.plist */,
+			);
+			path = YXGAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		640C111E1EF60DC600688323 /* YXGAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640C114C1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayer" */;
+			buildPhases = (
+				640C111B1EF60DC600688323 /* Sources */,
+				640C111C1EF60DC600688323 /* Frameworks */,
+				640C111D1EF60DC600688323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXGAVPlayer;
+			productName = YXGAVPlayer;
+			productReference = 640C111F1EF60DC600688323 /* YXGAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		640C11371EF60DC600688323 /* YXGAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640C114F1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerTests" */;
+			buildPhases = (
+				640C11341EF60DC600688323 /* Sources */,
+				640C11351EF60DC600688323 /* Frameworks */,
+				640C11361EF60DC600688323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				640C113A1EF60DC600688323 /* PBXTargetDependency */,
+			);
+			name = YXGAVPlayerTests;
+			productName = YXGAVPlayerTests;
+			productReference = 640C11381EF60DC600688323 /* YXGAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		640C11421EF60DC700688323 /* YXGAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640C11521EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerUITests" */;
+			buildPhases = (
+				640C113F1EF60DC700688323 /* Sources */,
+				640C11401EF60DC700688323 /* Frameworks */,
+				640C11411EF60DC700688323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				640C11451EF60DC700688323 /* PBXTargetDependency */,
+			);
+			name = YXGAVPlayerUITests;
+			productName = YXGAVPlayerUITests;
+			productReference = 640C11431EF60DC700688323 /* YXGAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		640C11171EF60DC600688323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YXG;
+				TargetAttributes = {
+					640C111E1EF60DC600688323 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					640C11371EF60DC600688323 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 640C111E1EF60DC600688323;
+					};
+					640C11421EF60DC700688323 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 640C111E1EF60DC600688323;
+					};
+				};
+			};
+			buildConfigurationList = 640C111A1EF60DC600688323 /* Build configuration list for PBXProject "YXGAVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 640C11161EF60DC600688323;
+			productRefGroup = 640C11201EF60DC600688323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				640C111E1EF60DC600688323 /* YXGAVPlayer */,
+				640C11371EF60DC600688323 /* YXGAVPlayerTests */,
+				640C11421EF60DC700688323 /* YXGAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		640C111D1EF60DC600688323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C11321EF60DC600688323 /* LaunchScreen.storyboard in Resources */,
+				640C112F1EF60DC600688323 /* Assets.xcassets in Resources */,
+				640C112D1EF60DC600688323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C11361EF60DC600688323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C11411EF60DC700688323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		640C111B1EF60DC600688323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C112A1EF60DC600688323 /* ViewController.m in Sources */,
+				640C11271EF60DC600688323 /* AppDelegate.m in Sources */,
+				640C11241EF60DC600688323 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C11341EF60DC600688323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C113D1EF60DC700688323 /* YXGAVPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C113F1EF60DC700688323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C11481EF60DC700688323 /* YXGAVPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		640C113A1EF60DC600688323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 640C111E1EF60DC600688323 /* YXGAVPlayer */;
+			targetProxy = 640C11391EF60DC600688323 /* PBXContainerItemProxy */;
+		};
+		640C11451EF60DC700688323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 640C111E1EF60DC600688323 /* YXGAVPlayer */;
+			targetProxy = 640C11441EF60DC700688323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		640C112B1EF60DC600688323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640C112C1EF60DC600688323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		640C11301EF60DC600688323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640C11311EF60DC600688323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		640C114A1EF60DC700688323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		640C114B1EF60DC700688323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		640C114D1EF60DC700688323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXGAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		640C114E1EF60DC700688323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXGAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		640C11501EF60DC700688323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXGAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXGAVPlayer.app/YXGAVPlayer";
+			};
+			name = Debug;
+		};
+		640C11511EF60DC700688323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXGAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXGAVPlayer.app/YXGAVPlayer";
+			};
+			name = Release;
+		};
+		640C11531EF60DC700688323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXGAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXGAVPlayer;
+			};
+			name = Debug;
+		};
+		640C11541EF60DC700688323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXGAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.YXGAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXGAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640C111A1EF60DC600688323 /* Build configuration list for PBXProject "YXGAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C114A1EF60DC700688323 /* Debug */,
+				640C114B1EF60DC700688323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640C114C1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C114D1EF60DC700688323 /* Debug */,
+				640C114E1EF60DC700688323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		640C114F1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C11501EF60DC700688323 /* Debug */,
+				640C11511EF60DC700688323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		640C11521EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C11531EF60DC700688323 /* Debug */,
+				640C11541EF60DC700688323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 640C11171EF60DC600688323 /* Project object */;
+}
