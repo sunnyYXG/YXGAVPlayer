@@ -2,7 +2,7 @@
 //  ViewController.h
 //  YXGAVPlayer
 //
-//  Created by sunny_FX on 2017/6/18.
+//  Created by sunny_FX on 2017/6/17.
 //  Copyright © 2017年 YXG. All rights reserved.
 //
 

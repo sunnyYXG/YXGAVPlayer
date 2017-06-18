@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E9B454A9710781BB50D5C7 /* libPods-YXGAVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB870CCF717ED3B40A2ED462 /* libPods-YXGAVPlayer.a */; };
 		640C11241EF60DC600688323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11231EF60DC600688323 /* main.m */; };
 		640C11271EF60DC600688323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11261EF60DC600688323 /* AppDelegate.m */; };
 		640C112A1EF60DC600688323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11291EF60DC600688323 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		640C11321EF60DC600688323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640C11301EF60DC600688323 /* LaunchScreen.storyboard */; };
 		640C113D1EF60DC700688323 /* YXGAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C113C1EF60DC700688323 /* YXGAVPlayerTests.m */; };
 		640C11481EF60DC700688323 /* YXGAVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C11471EF60DC700688323 /* YXGAVPlayerUITests.m */; };
+		644906F91EF60E8E00ACBC72 /* YXGAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 644906F81EF60E8E00ACBC72 /* YXGAVPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		640C11431EF60DC700688323 /* YXGAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXGAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640C11471EF60DC700688323 /* YXGAVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGAVPlayerUITests.m; sourceTree = "<group>"; };
 		640C11491EF60DC700688323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644906F71EF60E8E00ACBC72 /* YXGAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXGAVPlayer.h; sourceTree = "<group>"; };
+		644906F81EF60E8E00ACBC72 /* YXGAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXGAVPlayer.m; sourceTree = "<group>"; };
+		BC0EF3B37B8695F9FAE435D3 /* Pods-YXGAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXGAVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXGAVPlayer/Pods-YXGAVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		DB870CCF717ED3B40A2ED462 /* libPods-YXGAVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXGAVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94DF0AEBC4434EC7143B6D /* Pods-YXGAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXGAVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXGAVPlayer/Pods-YXGAVPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E9B454A9710781BB50D5C7 /* libPods-YXGAVPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B30245BEFAA81480412901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB870CCF717ED3B40A2ED462 /* libPods-YXGAVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C42738D2F514078F183ACD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EF3B37B8695F9FAE435D3 /* Pods-YXGAVPlayer.debug.xcconfig */,
+				EC94DF0AEBC4434EC7143B6D /* Pods-YXGAVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		640C11161EF60DC600688323 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				640C113B1EF60DC700688323 /* YXGAVPlayerTests */,
 				640C11461EF60DC700688323 /* YXGAVPlayerUITests */,
 				640C11201EF60DC600688323 /* Products */,
+				1C42738D2F514078F183ACD0 /* Pods */,
+				19B30245BEFAA81480412901 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 		640C11211EF60DC600688323 /* YXGAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				644906F61EF60E8E00ACBC72 /* YXGAVPlayer */,
 				640C11251EF60DC600688323 /* AppDelegate.h */,
 				640C11261EF60DC600688323 /* AppDelegate.m */,
 				640C11281EF60DC600688323 /* ViewController.h */,
@@ -140,6 +168,15 @@
 			path = YXGAVPlayerUITests;
 			sourceTree = "<group>";
 		};
+		644906F61EF60E8E00ACBC72 /* YXGAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				644906F71EF60E8E00ACBC72 /* YXGAVPlayer.h */,
+				644906F81EF60E8E00ACBC72 /* YXGAVPlayer.m */,
+			);
+			path = YXGAVPlayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 640C114C1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayer" */;
 			buildPhases = (
+				1E94507CBDC64074C83A7177 /* [CP] Check Pods Manifest.lock */,
 				640C111B1EF60DC600688323 /* Sources */,
 				640C111C1EF60DC600688323 /* Frameworks */,
 				640C111D1EF60DC600688323 /* Resources */,
+				CBDE750D10D2728CBB3A2E0D /* [CP] Embed Pods Frameworks */,
+				A4773A65685CBC0FD9BEBE8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,11 +308,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E94507CBDC64074C83A7177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4773A65685CBC0FD9BEBE8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXGAVPlayer/Pods-YXGAVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDE750D10D2728CBB3A2E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXGAVPlayer/Pods-YXGAVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		640C111B1EF60DC600688323 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644906F91EF60E8E00ACBC72 /* YXGAVPlayer.m in Sources */,
 				640C112A1EF60DC600688323 /* ViewController.m in Sources */,
 				640C11271EF60DC600688323 /* AppDelegate.m in Sources */,
 				640C11241EF60DC600688323 /* main.m in Sources */,
@@ -424,6 +513,7 @@
 		};
 		640C114D1EF60DC700688323 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0EF3B37B8695F9FAE435D3 /* Pods-YXGAVPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXGAVPlayer/Info.plist;
@@ -435,6 +525,7 @@
 		};
 		640C114E1EF60DC700688323 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC94DF0AEBC4434EC7143B6D /* Pods-YXGAVPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YXGAVPlayer/Info.plist;
@@ -509,6 +600,7 @@
 				640C114E1EF60DC700688323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640C114F1EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +609,7 @@
 				640C11511EF60DC700688323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640C11521EF60DC700688323 /* Build configuration list for PBXNativeTarget "YXGAVPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +618,7 @@
 				640C11541EF60DC700688323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
